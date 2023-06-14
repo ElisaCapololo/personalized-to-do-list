@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+       box-sizing: border-box;
+}
+
+body{margin: 0;}
+
+.content{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.cont-left, .cont-right{
+    border: 1px solid black;
+    width: 50vw; /* 50% of viewport width */
+    height: 50vh; /* 50% of viewport height */
+}
+.cont-left_info{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid green;
+}
+.cont-left_note{
+    display: flex;
+    justify-content: center;
+}
