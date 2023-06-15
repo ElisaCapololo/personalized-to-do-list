@@ -1,0 +1,43 @@
+<section class="content">
+        <div class="cont-left">
+            
+            <div class="cont-left_note">
+                oii
+            </div>
+        </div>
+        <div class="cont-right">
+            <div>
+                <h3>To-do</h3>
+            </div>
+            <div>
+                <h3>Doing</h3>
+            </div>
+            <div>
+                <h3>Done</h3>
+            </div>
+        </div>
+    </section>
+
+    *,
+*::after,
+*::before {
+       box-sizing: border-box;
+}
+
+body{margin: 0;}
+
+.content{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.cont-left, .cont-right{
+    border: 1px solid black;
+    width: 50vw; /* 50% of viewport width */
+    height: 50vh; /* 50% of viewport height */
+}
+.cont-left_note{
+    display: flex;
+    justify-content: center;
+}
